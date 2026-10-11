@@ -1,0 +1,32 @@
+2026-10-11 — npm test araç çıktısının iki parçasından birleştirilmiş kayıt; çıkış kodu 0.
+
+> taskflow@0.1.0 test
+> node --test tests/*.test.js
+
+✔ Postman koleksiyonu: JSON yapısı, değişkenler ve betik sözdizimi (16.0024ms)
+✔ Postman örneklerinin 11 isteği gerçek HTTP ile beklenen sonuçları verir (1221.6335ms)
+ℹ Gerçek HTTP isteği: 11
+✔ Beş CRUD endpoint: 201/200/204, Location, tam PUT ve 404 (1188.8691ms)
+ℹ Gerçek HTTP isteği: 9
+✔ Doğrulama: geçersiz veri ve eksik PUT 400; mevcut veri değişmez (858.9773ms)
+ℹ Gerçek HTTP isteği: 31
+✔ JSON, Content-Type, kodlama, boyut ve bilinmeyen route hataları (501.4386ms)
+ℹ Gerçek HTTP isteği: 10
+✔ Gerçek sunucu yeniden başlatmalarında oluşturma, güncelleme ve silme kalıcıdır (1673.5112ms)
+ℹ Gerçek HTTP isteği: 7
+✔ Eşzamanlı oluşturma ve PUT/DELETE veri kaybetmez (566.8271ms)
+ℹ Gerçek HTTP isteği: 26
+✔ Dosya okuma ve şema hataları güvenli 500 verir; bozuk veri ezilmez (728.7248ms)
+ℹ Gerçek HTTP isteği: 13
+✔ Enjekte edilen yazma arızasında POST/PUT/DELETE başarısız; veri ve kuyruk korunur (551.8657ms)
+ℹ Gerçek HTTP isteği: 6
+✔ Başlangıçta eksik dosya oluşturulur; bozuk dosya ile sunucu açılmaz (942.3556ms)
+ℹ Gerçek HTTP isteği: 1
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7198.3077

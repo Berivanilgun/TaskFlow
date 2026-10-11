@@ -1,0 +1,30 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+src/data/*.tmp
+.DS_Store
+Thumbs.db
+/tmp/
+
+# Adsız, yinelenen ekran görüntüsü
+/docs/postman-screenshots/.png
+
+# Yerel ayarlar, önbellekler ve özel kimlik bilgileri
+.cache/
+.npm/
+__pycache__/
+*.py[cod]
+*.tmp
+*.bak
+*.swp
+.vscode/
+.idea/
+.codex/
+.agents/
+.aws/
+.npmrc
+*.pem
+*.key
